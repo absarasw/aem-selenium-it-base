@@ -37,7 +37,12 @@ public enum EnumRail {
   /**
    * Filter option in the Rail CycleButton popover.
    */
-  FILTER("Filter", null);
+  FILTER("Filter", null),
+
+  /**
+   * Setup Analytics option in the Rail CycleButton popover.
+   */
+  SETUPANALYTICS("Setup Analytics", "setupanalytics");
 
   private final String panelName;
   private final String title;
